@@ -1,0 +1,177 @@
+.project{
+
+display:grid;
+
+grid-template-columns:1.1fr 1fr;
+
+gap:70px;
+
+align-items:center;
+
+margin-bottom:160px;
+
+}
+
+.reverse{
+
+grid-template-columns:1fr 1.1fr;
+
+}
+
+.reverse .project-image{
+
+order:2;
+
+}
+
+.reverse .project-info{
+
+order:1;
+
+}
+
+.project-image{
+
+overflow:hidden;
+
+border-radius:25px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.45);
+
+}
+
+.project-image img{
+
+transition:.6s;
+
+}
+
+.project-image:hover img{
+
+transform:scale(1.05);
+
+}
+
+.project-info .number{
+
+font-size:80px;
+
+font-weight:700;
+
+color:#8b5cf620;
+
+display:block;
+
+margin-bottom:-20px;
+
+}
+
+.project-info h2{
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.project-info p{
+
+font-size:18px;
+
+margin-bottom:30px;
+
+max-width:500px;
+
+}
+
+.stack{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-bottom:35px;
+
+}
+
+.stack span{
+
+padding:10px 18px;
+
+background:rgba(255,255,255,.08);
+
+border-radius:50px;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.buttons a{
+
+padding:14px 28px;
+
+border-radius:12px;
+
+transition:.35s;
+
+}
+
+.buttons a:first-child{
+
+background:#8b5cf6;
+
+}
+
+.buttons a:last-child{
+
+border:1px solid #8b5cf6;
+
+}
+
+.buttons a:hover{
+
+transform:translateY(-5px);
+
+}
+
+@media(max-width:900px){
+
+.project{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.reverse .project-image,
+
+.reverse .project-info{
+
+order:unset;
+
+}
+
+.project-info h2{
+
+font-size:34px;
+
+}
+
+.project-info .number{
+
+font-size:60px;
+
+}
+
+}
