@@ -1,0 +1,44 @@
+#tech{
+    padding:120px 10%;
+}
+
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:25px;
+    margin-top:60px;
+}
+
+.tech-card{
+    background:#111827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:30px 20px;
+    text-align:center;
+    transition:.35s;
+}
+
+.tech-card:hover{
+    transform:translateY(-8px);
+    border-color:#8b5cf6;
+}
+
+.tech-icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.tech-card h3{
+    color:white;
+    font-size:18px;
+}
+.react{color:#61dafb;}
+.javascript{color:#f7df1e;}
+.html5{color:#e34f26;}
+.css3{color:#1572b6;}
+.bootstrap{color:#7952b3;}
+.git{color:#f1502f;}
+.github{color:#ffffff;}
+.figma{color:#f24e1e;}
+.vs-code{color:#007acc;}
+.vercel{color:#ffffff;}

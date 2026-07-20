@@ -26,12 +26,9 @@ function Hero() {
 
         <TypeAnimation
           sequence={[
-            "Frontend React Developer",
+            "React Frontend  Developer",
             2000,
-            "UI Developer",
-            2000,
-            "Web Designer",
-            2000,
+            
           ]}
           wrapper="h2"
           speed={50}
